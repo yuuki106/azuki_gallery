@@ -1,0 +1,125 @@
+@media screen and (max-width:480px) {
+
+    
+    
+    .pcVer{
+        display: none;
+    }
+    .phoneVer{
+        display: block;
+    }
+    body{
+        min-width: 0;
+    }
+
+
+    /*-------------------------------------------*/
+
+    header{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header-left img{
+        margin-left: 0;
+    }
+    .header-center h3{
+        font-size: 20px;
+        width: 280px;
+        margin: auto;
+        padding-left: 0;
+    }
+    .header-right{
+        display: block;
+        float: right;
+        width: 100px;
+    }
+    /*-------------------------------------------*/
+    .menu-wrapper{
+        background-color: rgba(0, 0, 0, 0.67);
+    }
+    .menu-inner{
+        display: none;
+    }
+
+    .menu-inner li{
+        text-align: center;
+        border-top: 1px solid white;
+        padding: 20px 0;
+        width: 100%;
+        margin: auto;
+    }
+    .menu-wrapper a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    /*--------------------------------------------------*/
+    .gallery-wrapper{
+        padding-top: 80px;
+    }
+
+    .gallery-all{
+        width: 100%;
+    }
+
+    .gallery-all img{
+        width: 170px;
+        height: auto;
+        padding: 3px;
+    }
+
+
+    
+    /*--------------------------------------------------*/
+
+    .phone-menu{
+        border: 2px solid black;
+    }
+
+    .a-menu{
+        display: flex;
+        
+    }
+    .a-menu a{
+        height: 75px;
+        width: 33.33%;
+        border: 1px solid black;
+    }
+    .b-menu {
+        display: flex;
+    }
+    .b-menu a{
+        height: 75px;
+        width: 33.33%;
+        border: 1px solid black;
+    }
+    .top-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/top_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .pro-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/profile_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .sch-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/schedule_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .his-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/history_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .gal-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/gallery_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .goo-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/Goods_icon.jpg?raw=true);
+        background-size: contain;
+    }
+}

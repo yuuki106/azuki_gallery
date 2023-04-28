@@ -137,7 +137,7 @@ header{
     font-family: "Honoka_Shin_Mincho_L";
     text-align: center;
     line-height: 250px;
-    background-image: url(/img/back-white.jpeg);
+    background-image: url(https://github.com/yuuki106/azuki_gallery/blob/main/back-white.jpeg?raw=true);
     background-size: contain;
 }
 
@@ -152,7 +152,7 @@ header{
 .galleries h2{
     font-family: "Honoka_Shin_Mincho_L";
     text-align: center;
-    background-image: url(/img/back-black.jpeg);
+    background-image: url(https://github.com/yuuki106/azuki_gallery/blob/main/back-black.jpeg?raw=true);
     background-size: 30px;
     color: white;
 }
